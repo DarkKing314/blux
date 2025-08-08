@@ -42,6 +42,7 @@ BLUX Hive Mind Engine Plugin Template
 - Add metadata if desired.
 """
 
+```
 IS_ASYNC = False  # Set to True if run() is async
 
 def run(prompt):
@@ -50,7 +51,7 @@ def run(prompt):
 
 ENGINE_DESCRIPTION = "Describe your engine here."
 ENGINE_VERSION = "0.1.0"
-
+```
 
 ---
 
@@ -58,9 +59,11 @@ Registering Plugins
 
 Update your engines.json (or project config):
 
+```
 [
   { "name": "MyPlugin", "plugin": "my_plugin" }
 ]
+```
 
 Make sure the Python file is in your plugins/ folder.
 

@@ -17,6 +17,7 @@ This directory contains all branding, diagrams, screenshots, and banners for the
 
 ## Banners
 - `banners/blux-banner-wide.png` — For GitHub, docs, and announcements
+- `banners/blux-libf-banner-wide.png` — For Liberation Framework - Local user defined & controlled persistent memory
 
 ---
 

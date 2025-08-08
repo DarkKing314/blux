@@ -1,65 +1,49 @@
-# BLUX Ecosystem Roadmap
+# 🚀 BLUX Project Roadmap
 
-*The mission plan for a space-age, community-powered, open-source AI ecosystem.*
-
----
-
-## 🌌 Vision
-
-BLUX is building a modular, local-first, privacy-centric universe of AI tools—empowering everyone to create, code, and automate without limits or lock-in.  
-This roadmap lays out the evolution and big-picture goals for BLUX and all its subprojects.
+Track the evolution of BLUX here!  
+This roadmap outlines current priorities, planned milestones, and future ambitions for the entire BLUX ecosystem.
 
 ---
 
-## 🚀 Phased Milestones
+## Milestones
 
-### **Phase 1: Foundation (Q3–Q4 2024)**
-- Establish BLUX umbrella docs & governance
-- Launch BLUX-Lite as the reference AI terminal
-- Begin BLUX-cA “hive mind” agent codebase (scaffolding, core CLI)
-- BLUX-Quantum CLI planning and docs
-- Start model catalog and integration guides
+### v1.0.0 — BLUX Launch 🚀
 
-### **Phase 2: Expansion (Q1–Q2 2025)**
-- Implement pluggable agent and model frameworks in BLUX-cA
-- Add plugin/memory/cloud modules to BLUX-Lite and BLUX-cA
-- First working release of BLUX-Quantum as standalone CLI
-- Community contribution guidelines and templates
-- Cross-project documentation: unified style, guides, and FAQ
+- [x] Core repo and docs structure established
+- [x] Modular architecture and coding agent concept
+- [x] Basic plugin & model documentation templates
+- [x] Space-age, privacy-first principles documented
 
-### **Phase 3: Community & Integration (Mid–Late 2025)**
-- BLUX-cA and BLUX-Quantum deep integration (plug-in bridge)
-- Community agent/plugin/package hub launch
-- Distributed model hosting/mirroring support
-- Begin GUI and mobile UI research for all projects
+### v1.1+ — Early Expansion
 
-### **Phase 4: Beyond (2026 and onward)**
-- Advanced agent collaboration (multi-agent, swarm, hive mind)
-- Optional cloud/server inference for low-power devices
-- BLUX ecosystem GUI release (desktop & mobile)
-- Multi-language/documentation expansion
-- Ongoing innovation: new AI models, plugins, and creative workflows
+- [ ] Integrate first official plugins and AI models
+- [ ] CLI/Quantum orchestration prototype
+- [ ] Launch BLUX Discussions & community
+- [ ] Initial API docs and examples
 
----
+### v2.0 — Community & Cloud
 
-## 🛸 Near-Term To-Do (Editable Checklist)
+- [ ] Distributed/cloud model support
+- [ ] Contributor plugin/model registry
+- [ ] Cross-device sync via Liberation Framework
+- [ ] GUI/TUI for BLUX orchestration
 
-- [ ] Add initial architecture diagrams to each project
-- [ ] Publish model download & setup guide in `/models`
-- [ ] Draft community and contributor onboarding docs
-- [ ] Open first public discussions and feedback polls
-- [ ] Begin first round of user/developer testing
+### Beyond — Space-Age AI
+
+- [ ] Decentralized, peer-to-peer BLUX mesh
+- [ ] Smart aggregation, voting, and model pipelines
+- [ ] Advanced user-defined automation
+- [ ] Expanded language/model support (vision, multi-modal, more!)
 
 ---
 
-## 🌠 How to Get Involved
+## How to Get Involved
 
-- **Follow the main [BLUX repo](https://github.com/Justadudeinspace/blux) for updates**
-- **Contribute code, docs, ideas, or just feedback**
-- **Suggest roadmap items or vote on priorities in [Discussions](https://github.com/Justadudeinspace/blux/discussions)**
-
----
-
-*BLUX is a living project—this roadmap will be updated as we grow!*
+- See [Contribution Guide](../docs/contributing.md)
+- Suggest ideas in [Discussions](https://github.com/Justadudeinspace/blux/discussions)
+- Build a plugin, model, or integration!
+- Help with docs, design, or user experience
 
 ---
+
+> _The roadmap is living—help steer the future of modular, ethical, space-age AI!_

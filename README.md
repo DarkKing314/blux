@@ -23,7 +23,7 @@ This repository serves as the central hub and knowledge base for all BLUX projec
 
 ## **Vision**
 
-BLUX is dedicated to empowering individuals, developers, and communities to harness the power of modern AI without sacrificing privacy or independence.  
+**BLUX** is dedicated to empowering individuals, developers, and communities to harness the power of modern AI without sacrificing privacy or independence.  
 Our tools are designed to be plug-and-play, adaptable for any device, and free from paywalls or closed platforms.
 
 ---
@@ -51,7 +51,7 @@ Our tools are designed to be plug-and-play, adaptable for any device, and free f
 
 ## **Getting Started**
 
-This repo contains all documentation, architecture diagrams, and high-level roadmaps for the BLUX family.  
+This repo contains all documentation, architecture diagrams, and high-level roadmaps for the **BLUX** family.  
 **To get started with an individual tool, visit its repo above.**
 
 ---
@@ -65,13 +65,13 @@ Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [Code of Conduct](CODE_OF
 
 ## **Project Status**
 
-BLUX is evolving rapidly—watch this repo for the latest news, updates, and release schedules for all subprojects!
+**BLUX** is evolving rapidly—watch this repo for the latest news, updates, and release schedules for all subprojects!
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [**MIT License**](LICENSE).
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy  
 > of this software and associated documentation files (the "Software"), to deal  

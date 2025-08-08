@@ -1,55 +1,76 @@
-# BLUX-Lite Documentation
+# 🌠 BLUX-Lite
 
-**The Lightweight, Local-First AI Terminal  
-of the BLUX Ecosystem**
+*Part of the [BLUX Umbrella Project](https://github.com/Justadudeinspace/blux).*
 
----
-
-Welcome to the documentation space for **BLUX-Lite**—your futuristic, privacy-first AI terminal for Android (Termux) and Ubuntu.
+**BLUX-Lite** is a lightweight, privacy-first coding agent for Android, Termux, and minimalist Linux setups.  
+It delivers the essential BLUX experience—local-first AI, modular plugins, and persistent memory—optimized for small devices.
 
 ---
 
-## 🚀 What is BLUX-Lite?
+## 🚀 Features
 
-BLUX-Lite brings modular, local AI to your terminal with blazing speed and zero compromise on privacy.  
-- **Runs on your device:** All model inference happens locally—no cloud, no snooping.
-- **Feature-rich:** Web search, file analysis, memory, plugins, and voice.
-- **Minimal install:** Designed for Termux/Ubuntu but easily adaptable.
-- **Open-source:** Hack it, fork it, build it your way.
-
----
-
-## 📚 Documentation Contents
-
-- [Architecture Overview](docs/architecture.md)
-- [Installation & Setup](docs/install.md)
-- [Supported Models & Downloads](../models/README.md)
-- [Quickstart Guide](../guides/quickstart.md)
-- [FAQ & Troubleshooting](../guides/faq.md)
-- [Roadmap](docs/roadmap.md)
-- [Contribution Guide](../CONTRIBUTING.md)
+- Designed for mobile, Termux, and low-resource Linux systems
+- Fast CLI agent with modular plugin/engine support
+- Runs local models or connects to lightweight APIs
+- Integrates with [Liberation Framework](https://github.com/Justadudeinspace/liberation-framework) for on-device, user-controlled memory
+- No cloud required—your data stays yours
 
 ---
 
-## 🌌 Part of the BLUX Ecosystem
+## ⚡ Quick Start
 
-| Project         | Description                              |
-|-----------------|------------------------------------------|
-| [BLUX](https://github.com/Justadudeinspace/blux)           | Main project hub & umbrella docs   |
-| [BLUX-cA](https://github.com/Justadudeinspace/blux-ca)     | Modular “hive mind” coding agent   |
-| [BLUX-Quantum](https://github.com/Justadudeinspace/blux-quantum) | Standalone CLI, plug-in ready   |
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/Justadudeinspace/blux-lite.git
+   cd blux-lite
+
+2. Install requirements:
+
+```
+pip3 install -r requirements.txt
+```
+
+3. Run BLUX-Lite:
+```
+python lite.py q "Say hello from BLUX-Lite!"
+```
+(For Android, use Termux for best results.)
+
+
+
 
 ---
 
-## 🛰️ Get Started
+## 📄 Documentation
 
-- Read the docs above for detailed setup and usage.
-- See the [BLUX README](https://github.com/Justadudeinspace/blux) for ecosystem vision, project links, and community info.
+- [User Guide](docs/user-guide.md)
+- [Plugins Guide](docs/plugins.md)
+- [Memory System](docs/memory.md)
+- [Configuration](docs/config.md)
+- [FAQ](docs/faq.md)
+- [Contributing](docs/contributing.md)
+
+
 
 ---
 
-**Questions, ideas, or want to contribute? [Join the discussion!](https://github.com/Justadudeinspace/blux/discussions)**
+🤝 Contributing
+
+BLUX-Lite welcomes all contributions.
+See docs/contributing.md to get started.
+
 
 ---
 
-> _BLUX-Lite: The next leap in ethical, modular, space-age terminal AI._
+📜 License
+
+MIT License
+
+
+---
+
+> BLUX-Lite: Local-first, modular AI for every device.
+
+
+
+---

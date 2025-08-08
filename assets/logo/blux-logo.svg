@@ -1,19 +1,47 @@
-<!-- blux-logo.svg -->
-<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .main { font: bold 38px 'Orbitron', 'Arial Black', Arial, sans-serif; letter-spacing: 2px; fill: #42caff; }
-    .tagline { font: 10px 'Arial', sans-serif; fill: #a2e2ff; }
-    .glow { filter: url(#glow); }
-  </style>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#000"/>
+  <!-- Star Body -->
+  <g filter="url(#glow)">
+    <path d="M256 110
+             Q276 206 402 256
+             Q276 306 256 402
+             Q236 306 110 256
+             Q236 206 256 110Z"
+          fill="url(#blueToPurple)"/>
+    <!-- Star Center -->
+    <path d="M256 196
+             Q264 232 306 256
+             Q264 280 256 316
+             Q248 280 206 256
+             Q248 232 256 196Z"
+          fill="white" fill-opacity="0.8"/>
+  </g>
+  <!-- Orbit -->
+  <ellipse
+    cx="265"
+    cy="265"
+    rx="150"
+    ry="42"
+    transform="rotate(-24 265 265)"
+    stroke="url(#silverGradient)"
+    stroke-width="18"
+    fill="none"/>
   <defs>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <linearGradient id="blueToPurple" x1="140" y1="120" x2="372" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29B6F6"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="silverGradient" x1="160" y1="220" x2="370" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF"/>
+      <stop offset="0.5" stop-color="#BBB"/>
+      <stop offset="1" stop-color="#FFF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <text x="10" y="38" class="main glow">BLUX</text>
-  <text x="13" y="48" class="tagline">Space-age AI ecosystem</text>
 </svg>

@@ -50,17 +50,13 @@ An index/overview of all planned models (could be combined with README if you li
 ### 5. **Folder Structure Example**
 
 ```
-blux/models/ 
-       ├── README.md 
-       ├── TEMPLATE_MODEL.md 
-       ├── CodeLlama.md       
-       # (stub or actual doc) 
-       ├── DeepSeek.md        
-       # (stub or actual doc) 
-       ├── StarCoder.md       
-       # (stub or actual doc)
-
-(more as needed)
+blux/models/
+      └── CodeLlama/
+            ├── README.md            # Main integration guide for CodeLlama (based on TEMPLATE_MODEL.md)
+            ├── download.md          # (Optional) Step-by-step download guide
+            ├── usage.md             # (Optional) Example usage and CLI/API calls
+            ├── requirements.txt     # (Optional) Extra requirements for this model
+            └── LICENSE.md           # License info or summary
 ```
 
 ---

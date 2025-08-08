@@ -1,52 +1,95 @@
-# BLUX-cA Documentation
+# 🧠 BLUX-cA — Coding Agent & Hive Mind
 
-**The Modular, Local-First Coding Agent  
-of the BLUX Ecosystem**
+Part of the [BLUX Umbrella Project](https://github.com/Justadudeinspace/blux).
 
----
-
-Welcome to the documentation hub for **BLUX-cA**—the space-age, open-source coding agent designed for the next generation of developers and makers.
+BLUX-cA is your modular, privacy-first coding agent—a “hive mind” that orchestrates multiple AI models and tools for creative, ethical software development.
 
 ---
 
-## 🚀 What is BLUX-cA?
+## 🚀 Features
 
-BLUX-cA (Coding Agent) is the central “hive mind” AI assistant in the [BLUX](https://github.com/Justadudeinspace/blux) umbrella.  
-It features a modular architecture, plug-and-play AI models, ethical local-first memory, and deep extensibility for coding, creative, and automation tasks.
-
----
-
-## 📚 Documentation Contents
-
-- [Architecture Overview](docs/architecture.md)
-- [Installation & Setup](docs/install.md)
-- [Model Support & Downloads](../models/README.md)
-- [Quickstart Guide](../guides/quickstart.md)
-- [FAQ & Troubleshooting](../guides/faq.md)
-- [Roadmap](docs/roadmap.md)
-- [Contribution Guide](../CONTRIBUTING.md)
+- Plugin-based engine architecture (code, chat, creative models)
+- Parallel and async support for fast, multi-engine responses
+- Majority/consensus aggregation of model outputs
+- Local-first memory with [Liberation Framework](https://github.com/Justadudeinspace/liberation-framework)
+- Easy CLI integration and planned GUI
 
 ---
 
-## 🌌 Part of the BLUX Ecosystem
+## ⚡ Quick Start
 
-| Project         | Description                        |
-|-----------------|------------------------------------|
-| [BLUX](https://github.com/Justadudeinspace/blux)         | Main project hub & umbrella docs       |
-| [BLUX-Lite](https://github.com/Justadudeinspace/blux-lite) | Lightweight terminal AI (Termux/Ubuntu)|
-| [BLUX-Quantum](https://github.com/Justadudeinspace/blux-quantum) | Standalone CLI & automation plug-in   |
+1. **Clone the repo:**  
+   ```bash
+   git clone https://github.com/Justadudeinspace/blux-ca.git
+   cd blux-ca
+
+2. Install requirements:
+
+```
+pip3 install -r requirements.txt
+```
+
+3. Configure engines:
+
+Edit engines.json and add your plugins to plugins/.
+
+
+4. Run the agent:
+
+```
+python cli.py q "Write a Python function to reverse a list."
+```
+
+
 
 ---
 
-## 🛰️ Start Exploring
+🔌 Plugins & Engines
 
-- Browse the docs above to learn how BLUX-cA works and how to use it.
-- Check out our ecosystem’s [central README](https://github.com/Justadudeinspace/blux) for vision, project links, and community info.
+See docs/plugins.md for how to create, register, and use plugins with BLUX-cA.
 
----
-
-**Questions or ideas? [Join the discussion!](https://github.com/Justadudeinspace/blux/discussions)**
 
 ---
 
-> _BLUX-cA: Building the future of ethical, modular, space-age AI for everyone._
+💾 Memory & Persistence
+
+Powered by the Liberation Framework
+
+All user memory and state is stored locally—privacy first!
+
+See docs/memory.md for usage
+
+
+
+---
+
+## 📄 Documentation
+
+- [User Guide](docs/user-guide.md)
+- [Plugins Guide](docs/plugins.md)
+- [Memory System](docs/memory.md)
+- [Configuration](docs/config.md)
+- [FAQ](docs/faq.md)
+
+
+---
+
+🤝 Contributing
+
+See docs/contributing.md for guidelines.
+
+
+---
+
+📜 License
+
+MIT License
+
+
+---
+
+> BLUX-cA: Modular, ethical AI for the next generation of coding agents.
+
+
+
+---

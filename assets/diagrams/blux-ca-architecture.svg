@@ -1,0 +1,38 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#000"/>
+  <!-- Central Agent Core -->
+  <rect x="350" y="250" width="200" height="80" rx="18" fill="#1e2340" stroke="#29B6F6" stroke-width="3"/>
+  <text x="450" y="295" font-size="26" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Agent Core</text>
+  <!-- Memory System (above) -->
+  <rect x="375" y="90" width="150" height="60" rx="14" fill="#29B6F6" stroke="#7C4DFF" stroke-width="2"/>
+  <text x="450" y="128" font-size="18" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Memory System</text>
+  <!-- Plugin System (right) -->
+  <rect x="630" y="255" width="130" height="60" rx="14" fill="#7C4DFF" stroke="#29B6F6" stroke-width="2"/>
+  <text x="695" y="293" font-size="17" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Plugin System</text>
+  <!-- CLI (below left) -->
+  <rect x="170" y="430" width="110" height="48" rx="10" fill="#222" stroke="#29B6F6" stroke-width="1.5"/>
+  <text x="225" y="460" font-size="15" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">CLI</text>
+  <!-- UI (below center) -->
+  <rect x="390" y="440" width="120" height="48" rx="10" fill="#222" stroke="#7C4DFF" stroke-width="1.5"/>
+  <text x="450" y="470" font-size="15" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">UI</text>
+  <!-- External API (below right) -->
+  <rect x="620" y="440" width="120" height="48" rx="10" fill="#222" stroke="#29B6F6" stroke-width="1.5"/>
+  <text x="680" y="470" font-size="15" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">External API</text>
+  <!-- Arrows -->
+  <!-- Core <-> Memory -->
+  <line x1="450" y1="250" x2="450" y2="150" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="450" y1="150" x2="450" y2="250" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Core <-> Plugin -->
+  <line x1="550" y1="290" x2="630" y2="285" stroke="#7C4DFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="315" x2="550" y2="310" stroke="#7C4DFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Core -> CLI/UI/API -->
+  <line x1="400" y1="330" x2="225" y2="430" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="450" y1="330" x2="450" y2="440" stroke="#7C4DFF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="330" x2="680" y2="440" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Markers -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 L2,4 Z" fill="#29B6F6"/>
+    </marker>
+  </defs>
+</svg>

@@ -90,3 +90,7 @@ This project is licensed under the [**MIT License**](LICENSE).
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
 > SOFTWARE.
+
+---
+
+[![Sponsor BLUX on Patreon](https://img.shields.io/badge/Sponsor%20BLUX%20on%20Patreon-1e2340?style=for-the-badge&logo=patreon&logoColor=white&labelColor=007aff)](https://www.patreon.com/blux_umbrella)

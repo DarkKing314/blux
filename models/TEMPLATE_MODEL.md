@@ -49,6 +49,7 @@ An index/overview of all planned models (could be combined with README if you li
 
 ### 5. **Folder Structure Example**
 
+```
 blux/models/ 
        ├── README.md 
        ├── TEMPLATE_MODEL.md 
@@ -60,6 +61,7 @@ blux/models/
        # (stub or actual doc)
 
 (more as needed)
+```
 
 ---
 

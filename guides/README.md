@@ -3,7 +3,7 @@
 Welcome to the BLUX Guides directory!
 
 This folder contains step-by-step guides, tips, and advanced use-cases for every part of the BLUX ecosystem.  
-Whether you’re a beginner or a power user, you’ll find resources to help you get the most from BLUX.
+Whether you’re a beginner or an advanced user, you’ll find resources to help you get the most from BLUX.
 
 ---
 
@@ -19,7 +19,7 @@ Whether you’re a beginner or a power user, you’ll find resources to help you
   Tips and instructions for adding your favorite AI models
 
 - **Advanced Usage:**  
-  Automation, workflows, and power-user tricks
+  Automation, workflows, and power-user features
 
 - **Troubleshooting:**  
   Solutions for common issues, error messages, and platform-specific notes
@@ -33,4 +33,4 @@ Open an issue or post in [BLUX Discussions](https://github.com/Justadudeinspace/
 
 ---
 
-> _BLUX Guides: Your space-age manual for building and expanding modular AI._
+> _BLUX Guides: Your space-age manual for building, customizing, and expanding modular AI._

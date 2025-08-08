@@ -1,0 +1,37 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#000"/>
+  <!-- User -->
+  <rect x="380" y="50" width="140" height="45" rx="10" fill="#7C4DFF" stroke="#29B6F6" stroke-width="2"/>
+  <text x="450" y="80" font-size="18" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">User</text>
+  <!-- Arrow to Memory Core -->
+  <line x1="450" y1="95" x2="450" y2="170" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Memory Core (Vault) -->
+  <rect x="350" y="170" width="200" height="100" rx="34" fill="#232948" stroke="#29B6F6" stroke-width="3"/>
+  <!-- Vault symbol -->
+  <circle cx="450" cy="220" r="28" fill="#333" stroke="#7C4DFF" stroke-width="2.5"/>
+  <circle cx="450" cy="220" r="12" fill="#29B6F6" stroke="#BBB" stroke-width="1.5"/>
+  <text x="450" y="230" font-size="14" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">MEM</text>
+  <text x="450" y="262" font-size="18" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Memory Core</text>
+  <!-- Plugins left/right -->
+  <rect x="110" y="200" width="120" height="60" rx="15" fill="#0ff" stroke="#29B6F6" stroke-width="2"/>
+  <text x="170" y="235" font-size="16" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Plugin A</text>
+  <rect x="670" y="200" width="120" height="60" rx="15" fill="#29B6F6" stroke="#7C4DFF" stroke-width="2"/>
+  <text x="730" y="235" font-size="16" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Plugin B</text>
+  <!-- Plugin arrows -->
+  <line x1="350" y1="220" x2="230" y2="230" stroke="#7C4DFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="550" y1="220" x2="670" y2="230" stroke="#7C4DFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Persistent Storage (Vault/Drive) -->
+  <rect x="350" y="420" width="200" height="70" rx="24" fill="#111" stroke="#BBB" stroke-width="2.5"/>
+  <!-- Vault lock symbol -->
+  <circle cx="450" cy="455" r="16" fill="#232948" stroke="#29B6F6" stroke-width="2"/>
+  <rect x="442" y="448" width="16" height="8" rx="3" fill="#7C4DFF"/>
+  <text x="450" y="492" font-size="16" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Persistent Storage</text>
+  <!-- Down arrow Memory -> Vault -->
+  <line x1="450" y1="270" x2="450" y2="420" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Markers -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 L2,4 Z" fill="#29B6F6"/>
+    </marker>
+  </defs>
+</svg>

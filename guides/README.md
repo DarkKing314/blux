@@ -33,4 +33,4 @@ Open an issue or post in [BLUX Discussions](https://github.com/Justadudeinspace/
 
 ---
 
-> _BLUX Guides: Your space-age manual for building, hacking, and expanding modular AI._
+> _BLUX Guides: Your space-age manual for building and expanding modular AI._

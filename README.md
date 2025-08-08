@@ -1,3 +1,15 @@
+<div align="center">
+
+  <img src="assets/logo/blux-logo.png" alt="BLUX Logo" width="320" />
+
+  <br/>
+
+  <b>Space-Age Modular AI Ecosystem</b>
+
+</div>
+
+---
+
 # BLUX
 
 **The BLUX Project Umbrella**

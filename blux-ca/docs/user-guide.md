@@ -8,7 +8,7 @@ Welcome to BLUX-cA—the modular, privacy-first coding agent.
 
 - Launch with:
   ```bash
-  python cli.py q "Your prompt here"
+  python3 cli.py q "Your prompt here"
 
 Use other CLI commands as described in the README and docs/config.md
 
@@ -38,9 +38,9 @@ See docs/config.md for customizing commands and configuration.
 Examples
 
 ```
-python cli.py q "Refactor this function for readability."
-python cli.py memory save project_1
-python cli.py --models
+python3 cli.py q "Refactor this function for readability."
+python3 cli.py memory save project_1
+python3 cli.py --models
 ```
 
 ---

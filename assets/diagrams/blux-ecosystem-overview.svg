@@ -1,0 +1,54 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#000"/>
+  <!-- Central BLUX orb -->
+  <circle cx="450" cy="300" r="60" fill="url(#bluxGlow)" stroke="#29B6F6" stroke-width="3"/>
+  <text x="450" y="308" font-size="36" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">BLUX</text>
+  <!-- First Orbit Ring -->
+  <ellipse cx="450" cy="300" rx="170" ry="110" fill="none" stroke="#7C4DFF" stroke-width="2" opacity="0.7"/>
+  <!-- Inner orbit nodes -->
+  <!-- BLUX CA -->
+  <circle cx="620" cy="300" r="34" fill="#0ff" stroke="#29B6F6" stroke-width="2"/>
+  <text x="620" y="305" font-size="18" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">BLUX CA</text>
+  <!-- BLUX Lite -->
+  <circle cx="450" cy="190" r="32" fill="#29B6F6" stroke="#0ff" stroke-width="2"/>
+  <text x="450" y="195" font-size="17" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Lite</text>
+  <!-- BLUX Quantum -->
+  <circle cx="280" cy="300" r="34" fill="#7C4DFF" stroke="#29B6F6" stroke-width="2"/>
+  <text x="280" y="305" font-size="16" text-anchor="middle" fill="#111" font-family="Arial,sans-serif" font-weight="bold">Quantum</text>
+  <!-- Liberation Framework -->
+  <circle cx="450" cy="410" r="32" fill="#333" stroke="#29B6F6" stroke-width="2"/>
+  <text x="450" y="415" font-size="13" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Liberation</text>
+  <!-- Outer Orbit Ring -->
+  <ellipse cx="450" cy="300" rx="260" ry="175" fill="none" stroke="#BBB" stroke-width="1.5" opacity="0.5"/>
+  <!-- Outer orbit nodes -->
+  <!-- Models -->
+  <circle cx="730" cy="300" r="25" fill="#222" stroke="#7C4DFF" stroke-width="1.5"/>
+  <text x="730" y="305" font-size="14" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Models</text>
+  <!-- Guides -->
+  <circle cx="605" cy="130" r="25" fill="#222" stroke="#29B6F6" stroke-width="1.5"/>
+  <text x="605" y="135" font-size="13" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Guides</text>
+  <!-- Docs -->
+  <circle cx="295" cy="130" r="25" fill="#222" stroke="#29B6F6" stroke-width="1.5"/>
+  <text x="295" y="135" font-size="13" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Docs</text>
+  <!-- Assets -->
+  <circle cx="170" cy="300" r="25" fill="#222" stroke="#7C4DFF" stroke-width="1.5"/>
+  <text x="170" y="305" font-size="14" text-anchor="middle" fill="#FFF" font-family="Arial,sans-serif" font-weight="bold">Assets</text>
+  <!-- Connectors -->
+  <line x1="450" y1="240" x2="450" y2="190" stroke="#29B6F6" stroke-width="2"/>
+  <line x1="510" y1="300" x2="586" y2="300" stroke="#29B6F6" stroke-width="2"/>
+  <line x1="390" y1="300" x2="314" y2="300" stroke="#7C4DFF" stroke-width="2"/>
+  <line x1="450" y1="360" x2="450" y2="410" stroke="#29B6F6" stroke-width="2"/>
+  <!-- Outer connections -->
+  <line x1="584" y1="170" x2="605" y2="130" stroke="#BBB" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="316" y1="170" x2="295" y2="130" stroke="#BBB" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="655" y1="300" x2="730" y2="300" stroke="#BBB" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="245" y1="300" x2="170" y2="300" stroke="#BBB" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <!-- Defs for gradients -->
+  <defs>
+    <radialGradient id="bluxGlow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#7C4DFF"/>
+      <stop offset="60%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+</svg>

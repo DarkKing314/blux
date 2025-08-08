@@ -1,0 +1,19 @@
+<!-- blux-logo.svg -->
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .main { font: bold 38px 'Orbitron', 'Arial Black', Arial, sans-serif; letter-spacing: 2px; fill: #42caff; }
+    .tagline { font: 10px 'Arial', sans-serif; fill: #a2e2ff; }
+    .glow { filter: url(#glow); }
+  </style>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="10" y="38" class="main glow">BLUX</text>
+  <text x="13" y="48" class="tagline">Space-age AI ecosystem</text>
+</svg>

@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 
 3. Run BLUX-Lite:
 ```
-python lite.py q "Say hello from BLUX-Lite!"
+python3 lite.py q "Say hello from BLUX-Lite!"
 ```
 (For Android, use Termux for best results.)
 
